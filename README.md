@@ -1,4 +1,4 @@
-﻿# MDong-Mining-Project
+# MDong-Mining-Project
 
 **Note**: Chinese version of this `README.md` is available here.
 
@@ -17,9 +17,12 @@ and generalizable intelligent detection system.
 - `predict.py`: Apply semantic segmentation to images.
 - `train.py`: Train your own truck-mineral-background segmentation model.
 - `registration.py`: Perform template-based registrations for moved images.
-- `util.py`: Customized math functions applied to this project.
-- `score.py`:  Extract information to support the final scoring.
-
+- `roughnessDetect.py`: Process curves and detect pits.
+- `volumeDetect.py`: Detect Detects whether the truck is full of minerals from a volumetric point of view.
+- `fullnessDetect.py`: From the position of the front and back of the mineral, detect whether the mineral is full or not.
+- `utils.py`: Auxiliary mathematical functions.
+- `visualization.py`: Auxiliary visualization functions.
+- `score.py`: Rate the images.
 
 ### 3. Result Visualization
 
@@ -36,6 +39,8 @@ and generalizable intelligent detection system.
 - 04/07/2023: The first version of registration codes were finished.
 - 04/17/2023: The first version of segmentation codes were finished.
 - 04/25/2023: The first version of feature extraction were finished.
+- 05/14/2023: The fundamental framework were accomplished. 
+
 
 ### 6. License
 This is a commercial project, hence no Open Source Protocols here.
