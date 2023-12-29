@@ -43,4 +43,4 @@ and generalizable intelligent detection system.
 
 
 ### 6. License
-This is a commercial project, hence no Open Source Protocols here.
+This is a commercial project, hence no Open Source Protocols here.  
